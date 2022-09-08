@@ -31,7 +31,7 @@ const theme2 = createTheme({
 
 
 export default function Stepper_() {
-    const [activeStep, setActiveStep] = React.useState(3)
+    const [activeStep, setActiveStep] = React.useState(0)
 
     const handleNext = () => {
         setActiveStep(prevActiveStep => prevActiveStep + 1)

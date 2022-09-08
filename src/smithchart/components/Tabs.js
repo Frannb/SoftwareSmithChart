@@ -48,8 +48,8 @@ export default function BasicTabs({ tabOne }) {
             <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
                 <Tabs value={value} onChange={handleChange} aria-label="basic tabs example">
                     <Tab label="Carta de Smith" />
-                    <Tab label="Cálculos teórico e circuito" />
-                    <Tab label="Cálculos real e circuito" />
+                    <Tab label="Cálculo teórico e circuito" />
+                    <Tab label="Cálculo real e circuito" />
                 </Tabs>
             </Box>
             <TabPanel value={value} index={0}>
